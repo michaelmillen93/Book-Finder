@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: linear-gradient(to right bottom, #5af2e5, #0b8e83);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.heading-primary {
+  font-size: 4rem;
+  margin-top: 1rem;
+}
+
+.search-form {
+  margin-top: 1rem;
+  position: relative;
+}
+.search-form-input {
+  width: 50rem;
+  padding: 0.5rem;
+  outline: none;
+  font-family: "Open Sans", sans-serif;
+  border-radius: 100px;
+  border-color: #0fbdae;
+  border: none;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.4);
+}
+.search-form-btn {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  height: 3rem;
+  width: 20%;
+  top: -0.1rem;
+  right: 0rem;
+  border-radius: 100px;
+  background-color: #0fbdae;
+  border: none;
+  color: #fff;
+  transform: scale(1);
+}
+.search-form-btn:active {
+  transform: scale(0.98);
+}
+
+.results-container {
+  margin: 20px auto;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+}
+.results-container .results {
+  display: flex;
+  flex-direction: column;
+}
+.results-container .results-result {
+  font-size: 14px;
+  list-style: none;
+  padding: 0.5rem;
+  border: 2px solid #0fbdae;
+  margin: 0.2rem;
+  width: 100%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: #faf9f9;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.6);
+  min-height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */
